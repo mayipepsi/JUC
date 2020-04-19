@@ -7,7 +7,7 @@ public class T07_TestCyclicBarrier {
     public static void main(String[] args) {
         //CyclicBarrier barrier = new CyclicBarrier(20);
 
-        CyclicBarrier barrier = new CyclicBarrier(20, () -> System.out.println("ÂúÈË"));
+        CyclicBarrier barrier = new CyclicBarrier(101, () -> System.out.println("ÂúÈË"));
 
         /*CyclicBarrier barrier = new CyclicBarrier(20, new Runnable() {
             @Override

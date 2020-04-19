@@ -22,7 +22,7 @@ public class T03_ReentrantLock3 {
 	void m1() {
 		try {
 			lock.lock();
-			for (int i = 0; i < 3; i++) {
+			for (int i = 0; i < 6; i++) {
 				TimeUnit.SECONDS.sleep(1);
 
 				System.out.println(i);
