@@ -40,8 +40,8 @@ public class T04_NotifyFreeLock {
 		T04_NotifyFreeLock c = new T04_NotifyFreeLock();
 		
 		final Object lock = new Object();
-		
-		new Thread(() -> {
+
+		Thread t2 = new Thread(() -> {
 			synchronized(lock) {
 				System.out.println("t2启动");
 				if(c.size() != 5) {
@@ -56,8 +56,8 @@ public class T04_NotifyFreeLock {
 				lock.notify();
 			}
 			
-		}, "t2").start();
-		
+		}, "t2");
+		t2.start();
 		try {
 			TimeUnit.SECONDS.sleep(1);
 		} catch (InterruptedException e1) {
@@ -73,19 +73,21 @@ public class T04_NotifyFreeLock {
 					
 					if(c.size() == 5) {
 						lock.notify();
+
 						//释放锁，让t2得以执行
 						try {
+							//t2.join();
 							lock.wait();
 						} catch (InterruptedException e) {
 							e.printStackTrace();
 						}
 					}
-					
-					try {
-						TimeUnit.SECONDS.sleep(1);
-					} catch (InterruptedException e) {
-						e.printStackTrace();
-					}
+//
+//					try {
+//						TimeUnit.SECONDS.sleep(1);
+//					} catch (InterruptedException e) {
+//						e.printStackTrace();
+//					}
 				}
 			}
 		}, "t1").start();

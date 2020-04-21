@@ -53,11 +53,11 @@ public class T03_NotifyHoldingLock { //wait notify
 			
 		}, "t2").start();
 		
-		try {
-			TimeUnit.SECONDS.sleep(1);
-		} catch (InterruptedException e1) {
-			e1.printStackTrace();
-		}
+//		try {
+//			TimeUnit.SECONDS.sleep(1);
+//		} catch (InterruptedException e1) {
+//			e1.printStackTrace();
+//		}
 
 		new Thread(() -> {
 			System.out.println("t1Æô¶¯");
