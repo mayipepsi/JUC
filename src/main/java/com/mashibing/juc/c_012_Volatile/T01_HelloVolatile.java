@@ -17,29 +17,45 @@
  */
 package com.mashibing.juc.c_012_Volatile;
 
+import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
 public class T01_HelloVolatile {
-	/*volatile*/ boolean running = true; //对比一下有无volatile的情况下，整个程序运行结果的区别
-	void m() {
+	 boolean running = true; //对比一下有无volatile的情况下，整个程序运行结果的区别
+	  synchronized void m() {
 		System.out.println("m start");
-		while(running) {
+		  try {
+//			  for (int i=0;i<10000000;i++){
+//				  UUID.randomUUID().toString();
+//			  }
+//			  System.out.println("计算结束");
+		  } catch (Exception e) {
+			  e.printStackTrace();
+		  }
+		  while(running) {
 		}
 		System.out.println("m end!");
 	}
-	
+
+	synchronized void change(){
+		System.out.println("改变M");
+		running=false;
+	}
+
 	public static void main(String[] args) {
 		T01_HelloVolatile t = new T01_HelloVolatile();
 		
-		new Thread(t::m, "t1").start();
+		new Thread(() -> {
+			t.m();
+		}).start();
 
 		try {
 			TimeUnit.SECONDS.sleep(1);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		
-		t.running = false;
+
+		t.change();
 	}
 	
 }

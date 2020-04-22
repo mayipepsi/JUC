@@ -7,7 +7,7 @@ public class TestReentrantLock {
     private static volatile int i = 0;
 
     public static void main(String[] args) {
-        ReentrantLock lock = new ReentrantLock();
+        ReentrantLock lock = new ReentrantLock(true);
         lock.lock();
         //synchronized (TestReentrantLock.class) {
             i++;

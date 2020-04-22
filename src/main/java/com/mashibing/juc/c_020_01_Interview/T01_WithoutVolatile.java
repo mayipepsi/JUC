@@ -29,21 +29,22 @@ public class T01_WithoutVolatile {
 		T01_WithoutVolatile c = new T01_WithoutVolatile();
 
 		new Thread(() -> {
-			for(int i=0; i<10; i++) {
+			for(int i=0; i<5; i++) {
 				c.add(new Object());
 				System.out.println("add " + i);
 				
-				try {
-					TimeUnit.SECONDS.sleep(1);
-				} catch (InterruptedException e) {
-					e.printStackTrace();
-				}
+//				try {
+//					TimeUnit.SECONDS.sleep(1);
+//				} catch (InterruptedException e) {
+//					e.printStackTrace();
+//				}
 			}
 		}, "t1").start();
 		
 		new Thread(() -> {
 			while(true) {
-				if(c.size() == 5) {
+				if(c.size() >= 5) {
+					System.out.println(c.size()+"   ==");
 					break;
 				}
 			}
