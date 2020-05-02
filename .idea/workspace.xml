@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="537745d2-fdf3-45e3-91ce-55d43dfd9027" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_012_Volatile/T01_HelloVolatile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_012_Volatile/T01_HelloVolatile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T01_WithoutVolatile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T01_WithoutVolatile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_021_02_AQS/TestReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_021_02_AQS/TestReentrantLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_012_Volatile/T02_VolatileReference1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_012_Volatile/T02_VolatileReference1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,106 +21,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T02_WithVolatile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T04_NotifyFreeLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-110">
-              <caret line="28" column="23" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T01_WithoutVolatile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_012_Volatile/T01_HelloVolatile.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T06_LockSupport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="39" column="16" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="16" />
+            <state relative-caret-position="1185">
+              <caret line="71" column="31" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/jdk1.8/src.zip!/java/util/UUID.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="140" column="23" selection-start-line="140" selection-start-column="23" selection-end-line="140" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_021_01_interview/MyContainer1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T03_NotifyHoldingLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1103">
-              <caret line="76" column="21" lean-forward="true" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_021_02_AQS/TestReentrantLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/jdk1.8/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="239" column="13" lean-forward="true" selection-start-line="239" selection-start-column="13" selection-end-line="239" selection-end-column="13" />
-              <folding>
-                <element signature="e#7116#7117#0" expanded="true" />
-                <element signature="e#7150#7151#0" expanded="true" />
-                <element signature="e#8176#8177#0" expanded="true" />
-                <element signature="e#8216#8217#0" expanded="true" />
-                <element signature="e#9117#9118#0" expanded="true" />
-                <element signature="e#9144#9145#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/jdk1.8/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="1198" column="20" selection-start-line="1198" selection-start-column="20" selection-end-line="1198" selection-end-column="20" />
-              <folding>
-                <element signature="e#41392#41393#0" expanded="true" />
-                <element signature="e#41449#41450#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_022_RefTypeAndThreadLocal/T01_NormalReference.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_022_RefTypeAndThreadLocal/T04_PhantomReference.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_018_01_Unsafe/HelloUnsafe.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_024_FromVectorToQueue/TicketSeller4.java" />
@@ -209,13 +113,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020/T03_ReentrantLock3.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020/T07_TestCyclicBarrier.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020/T10_TestReadWriteLock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T03_NotifyHoldingLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T06_LockSupport.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T02_WithVolatile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_021_02_AQS/TestReentrantLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T04_NotifyFreeLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T01_WithoutVolatile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_012_Volatile/T01_HelloVolatile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_012_Volatile/T02_VolatileReference1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T03_NotifyHoldingLock.java" />
       </list>
     </option>
   </component>
@@ -245,10 +150,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="width" value="1944" />
+    <option name="height" value="1104" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -256,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -306,7 +210,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mashibing" type="462c0819:PsiDirectoryNode" />
               <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="c_012_Volatile" type="462c0819:PsiDirectoryNode" />
+              <item name="c_011" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JUC" type="b2602c69:ProjectViewProjectNode" />
@@ -316,7 +220,47 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mashibing" type="462c0819:PsiDirectoryNode" />
               <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="c_020" type="462c0819:PsiDirectoryNode" />
+              <item name="c_011_01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JUC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mashibing" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+              <item name="c_016_LockOptimization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JUC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mashibing" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+              <item name="c_017_MoreAboutSync" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JUC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mashibing" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+              <item name="c_018_00_AtomicXXX" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JUC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JUC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mashibing" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+              <item name="c_018_01_Unsafe" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JUC" type="b2602c69:ProjectViewProjectNode" />
@@ -336,37 +280,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mashibing" type="462c0819:PsiDirectoryNode" />
               <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="c_021_01_interview" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JUC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mashibing" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="c_021_02_AQS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JUC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mashibing" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="c_022_RefTypeAndThreadLocal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JUC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mashibing" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="c_023_01_Containers" type="462c0819:PsiDirectoryNode" />
+              <item name="c_028_FalseSharing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JUC" type="b2602c69:ProjectViewProjectNode" />
@@ -383,7 +297,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="NBKnowledgePane" />
     </panes>
   </component>
@@ -393,8 +306,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587569313076" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588394866444" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19058296" />
@@ -433,9 +346,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.T01_HelloVolatile">
-    <configuration name="T01_HelloVolatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_012_Volatile.T01_HelloVolatile" />
+  <component name="RunManager" selected="Application.T03_NotifyHoldingLock">
+    <configuration name="T02_VolatileReference1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_012_Volatile.T02_VolatileReference1" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
@@ -447,8 +360,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T01_WithoutVolatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_020_01_Interview.T01_WithoutVolatile" />
+    <configuration name="T02_WithVolatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_020_01_Interview.T02_WithVolatile" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
@@ -460,8 +373,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T02_WithVolatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_020_01_Interview.T02_WithVolatile" />
+    <configuration name="T03_NotifyHoldingLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_020_01_Interview.T03_NotifyHoldingLock" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
@@ -486,12 +399,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestReentrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_021_02_AQS.TestReentrantLock" />
+    <configuration name="T06_LockSupport" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_020_01_Interview.T06_LockSupport" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_021_02_AQS.*" />
+          <option name="PATTERN" value="com.mashibing.juc.c_020_01_Interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -500,19 +413,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.T04_NotifyFreeLock" />
+      <item itemvalue="Application.T02_VolatileReference1" />
+      <item itemvalue="Application.T06_LockSupport" />
       <item itemvalue="Application.T02_WithVolatile" />
-      <item itemvalue="Application.TestReentrantLock" />
-      <item itemvalue="Application.T01_WithoutVolatile" />
-      <item itemvalue="Application.T01_HelloVolatile" />
+      <item itemvalue="Application.T04_NotifyFreeLock" />
+      <item itemvalue="Application.T03_NotifyHoldingLock" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.T01_HelloVolatile" />
-        <item itemvalue="Application.T01_WithoutVolatile" />
+        <item itemvalue="Application.T03_NotifyHoldingLock" />
         <item itemvalue="Application.T04_NotifyFreeLock" />
-        <item itemvalue="Application.TestReentrantLock" />
         <item itemvalue="Application.T02_WithVolatile" />
+        <item itemvalue="Application.T06_LockSupport" />
+        <item itemvalue="Application.T02_VolatileReference1" />
       </list>
     </recent_temporary>
   </component>
@@ -534,7 +447,14 @@
       <workItem from="1587259724031" duration="10996000" />
       <workItem from="1587392182281" duration="887000" />
       <workItem from="1587476377559" duration="6694000" />
-      <workItem from="1587556470861" duration="6072000" />
+      <workItem from="1587556470861" duration="6972000" />
+      <workItem from="1587646137636" duration="1839000" />
+      <workItem from="1587740847582" duration="1257000" />
+      <workItem from="1587816193622" duration="1295000" />
+      <workItem from="1587909908602" duration="726000" />
+      <workItem from="1587996109280" duration="26000" />
+      <workItem from="1588304486303" duration="817000" />
+      <workItem from="1588391271212" duration="3016000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交演示代码">
       <created>1566616292953</created>
@@ -599,19 +519,25 @@
       <option name="project" value="LOCAL" />
       <updated>1587482973787</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="缓存一致性，多线程之间可见">
+      <created>1587569373838</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1587569373838</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27389000" />
+    <option name="totallyTimeSpent" value="37265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.33379695" side_tool="true" weight="0.21834862" />
       <window_info id="Designer" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7804054" visible="true" weight="0.23525469" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7804054" visible="true" weight="0.25938338" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
@@ -621,7 +547,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32685512" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49932975" visible="true" weight="0.37252125" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49932975" visible="true" weight="0.37252125" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3045326" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -631,7 +557,7 @@
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" x="0" y="0" width="373" height="847" id="Documentation" order="0" sideWeight="0.50073856" side_tool="true" weight="0.26788992" />
-      <window_info anchor="right" id="jclasslib" order="1" weight="0.36016262" />
+      <window_info anchor="right" id="jclasslib" order="1" weight="0.5308311" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Maven" order="4" sideWeight="0.49926144" weight="0.26737967" />
@@ -686,7 +612,8 @@
     <MESSAGE value="2019年11月10日的更新" />
     <MESSAGE value="2020" />
     <MESSAGE value="2020面试题" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020面试题" />
+    <MESSAGE value="缓存一致性，多线程之间可见" />
+    <option name="LAST_COMMIT_MESSAGE" value="缓存一致性，多线程之间可见" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -735,55 +662,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_028_FalseSharing/T01_CacheLinePadding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_028_FalseSharing/T02_CacheLinePadding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/jre/lib/rt.jar!/sun/misc/Unsafe.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/util/concurrent/ConcurrentHashMap.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/HashMap.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ConcurrentHashMap.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/Tets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Disruptor.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="66">
-            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_012_Volatile/T02_VolatileReference1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_012_Volatile/T03________VolatileReference2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_012_Volatile/T04_VolatileNotSync.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -816,13 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
           <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/jdk1.8/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5280">
-          <caret line="281" column="30" selection-start-line="281" selection-start-column="30" selection-end-line="281" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -885,24 +756,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_029_WriteCombining/WriteCombining.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020/T03_ReentrantLock3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
           <caret line="52" column="48" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020/T04_ReentrantLock4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -948,13 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020/T10_TestReadWriteLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020/T13_TestLockSupport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-110">
@@ -966,20 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1114">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T05_CountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T06_LockSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
@@ -1011,9 +847,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_022_RefTypeAndThreadLocal/ThreadLocal2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3124">
+          <caret line="181" column="31" selection-start-line="181" selection-start-column="31" selection-end-line="181" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8/src.zip!/java/util/UUID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2574">
+          <caret line="140" column="23" selection-start-line="140" selection-start-column="23" selection-end-line="140" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_021_01_interview/MyContainer1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/jdk1.8/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
+        <state relative-caret-position="25146">
           <caret line="1198" column="20" selection-start-line="1198" selection-start-column="20" selection-end-line="1198" selection-end-column="20" />
           <folding>
             <element signature="e#41392#41393#0" expanded="true" />
@@ -1022,10 +886,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/jdk1.8/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="211" column="36" selection-start-line="211" selection-start-column="33" selection-end-line="211" selection-end-column="36" />
+          <folding>
+            <element signature="e#7765#7766#0" expanded="true" />
+            <element signature="e#7802#7803#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_023_02_FromHashtableToCHM/T01_TestHashtable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020/T05_ReentrantLock5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020/T04_ReentrantLock4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/jdk1.8/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="239" column="13" lean-forward="true" selection-start-line="239" selection-start-column="13" selection-end-line="239" selection-end-column="13" />
+        <state relative-caret-position="4598">
+          <caret line="255" column="11" selection-start-line="255" selection-start-column="11" selection-end-line="255" selection-end-column="11" />
           <folding>
             <element signature="e#7116#7117#0" expanded="true" />
             <element signature="e#7150#7151#0" expanded="true" />
@@ -1037,54 +936,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T02_WithVolatile.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020/T10_TestReadWriteLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+        <state relative-caret-position="176">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T03_NotifyHoldingLock.java">
+    <entry file="jar://C:/jdk1.8/src.zip!/java/util/concurrent/locks/ReadWriteLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1103">
-          <caret line="76" column="21" lean-forward="true" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+        <state relative-caret-position="241">
+          <caret line="118" column="29" lean-forward="true" selection-start-line="118" selection-start-column="29" selection-end-line="118" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T04_NotifyFreeLock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_029_WriteCombining/WriteCombining.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="194">
+          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_021_01_interview/MyContainer1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_028_FalseSharing/T01_CacheLinePadding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="23" />
+        <state relative-caret-position="418">
+          <caret line="19" column="29" selection-end-line="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T01_WithoutVolatile.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_028_FalseSharing/T02_CacheLinePadding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        <state relative-caret-position="110">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/jdk1.8/src.zip!/java/util/UUID.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_018_01_Unsafe/HelloUnsafe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="140" column="23" selection-start-line="140" selection-start-column="23" selection-end-line="140" selection-end-column="23" />
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020/T01_ReentrantLock1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_012_Volatile/T01_HelloVolatile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="39" column="16" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="16" />
+        <state relative-caret-position="176">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_012_Volatile/T02_VolatileReference1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T01_WithoutVolatile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T02_WithVolatile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T05_CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T04_NotifyFreeLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="92" column="25" lean-forward="true" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T03_NotifyHoldingLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="66" column="36" lean-forward="true" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T06_LockSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="71" column="31" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
