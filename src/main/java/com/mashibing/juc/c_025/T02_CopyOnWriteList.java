@@ -16,6 +16,12 @@ import java.util.Random;
 import java.util.Vector;
 import java.util.concurrent.CopyOnWriteArrayList;
 
+/***
+ * 写时复制
+ * 写的少 读的多 可以用CopyOnWriteArrayList  读的时候不加锁  写时复制
+ * 写的时候 在原来的List copy一个
+ * 扩展一个新元素(添加进来) 引用指向最新的
+ */
 public class T02_CopyOnWriteList {
 	public static void main(String[] args) {
 		List<String> lists = 

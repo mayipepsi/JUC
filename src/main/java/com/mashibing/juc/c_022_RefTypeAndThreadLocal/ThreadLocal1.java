@@ -21,7 +21,7 @@ public class ThreadLocal1 {
 			
 			System.out.println(p.name);
 		}).start();
-		
+
 		new Thread(()->{
 			try {
 				TimeUnit.SECONDS.sleep(1);

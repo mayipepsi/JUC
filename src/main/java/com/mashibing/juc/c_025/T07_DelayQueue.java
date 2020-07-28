@@ -7,6 +7,10 @@ import java.util.concurrent.DelayQueue;
 import java.util.concurrent.Delayed;
 import java.util.concurrent.TimeUnit;
 
+/***
+ * 按照在里面等待的时间进行排序
+ * 按时间进行任务调度
+ */
 public class T07_DelayQueue {
 
 	static BlockingQueue<MyTask> tasks = new DelayQueue<>();
