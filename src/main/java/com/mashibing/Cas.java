@@ -3,7 +3,7 @@ package com.mashibing;
 public class Cas {
 
     enum ReadyToRun {T1,T2}
-    static  volatile ReadyToRun r=ReadyToRun.T1;
+    static volatile ReadyToRun r=ReadyToRun.T1;
 
     public static void main(String[] args) {
         char[] c1="1234".toCharArray();

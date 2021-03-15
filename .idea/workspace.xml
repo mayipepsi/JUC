@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="537745d2-fdf3-45e3-91ce-55d43dfd9027" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_012_Volatile/T02_VolatileReference1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_012_Volatile/T02_VolatileReference1.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,22 +17,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="JUC" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T06_LockSupport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
-              <caret line="71" column="31" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="31" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -127,14 +110,15 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../DevelopmentEnvironment/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../DevelopmentEnvironment/maven/apache-maven-3.6.3/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="downloadDocsAutomatically" value="true" />
         <option name="downloadSourcesAutomatically" value="true" />
-        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="11" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -149,10 +133,14 @@
       <select />
     </treeState>
   </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="11" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1944" />
     <option name="height" value="1104" />
   </component>
+  <component name="ProjectId" id="1pdmTJdBOllcVXktU1waMsZ53Lf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -300,6 +288,10 @@
       <pane id="NBKnowledgePane" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
@@ -308,11 +300,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588394866444" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19058296" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -334,25 +326,13 @@
       <recent name="C:\work\ijprojects\JUC\src\main\java\com\mashibing\disruptor\v3" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.T03_NotifyHoldingLock">
-    <configuration name="T02_VolatileReference1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_012_Volatile.T02_VolatileReference1" />
+  <component name="RunManager" selected="Application.T02_CacheLinePadding">
+    <configuration name="T01_HelloVarHandle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_021_03_VarHandle.T01_HelloVarHandle" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_012_Volatile.*" />
+          <option name="PATTERN" value="com.mashibing.juc.c_021_03_VarHandle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -360,12 +340,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T02_WithVolatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_020_01_Interview.T02_WithVolatile" />
+    <configuration name="T01_WhatIsThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_000.T01_WhatIsThread" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_020_01_Interview.*" />
+          <option name="PATTERN" value="com.mashibing.juc.c_000.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -373,12 +353,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T03_NotifyHoldingLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_020_01_Interview.T03_NotifyHoldingLock" />
+    <configuration name="T02_CacheLinePadding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_028_FalseSharing.T02_CacheLinePadding" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_020_01_Interview.*" />
+          <option name="PATTERN" value="com.mashibing.juc.c_028_FalseSharing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -386,12 +366,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T04_NotifyFreeLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_020_01_Interview.T04_NotifyFreeLock" />
+    <configuration name="T02_HowToCreateThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_000.T02_HowToCreateThread" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_020_01_Interview.*" />
+          <option name="PATTERN" value="com.mashibing.juc.c_000.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -399,12 +379,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T06_LockSupport" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_020_01_Interview.T06_LockSupport" />
+    <configuration name="TestReentrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_021_02_AQS.TestReentrantLock" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_020_01_Interview.*" />
+          <option name="PATTERN" value="com.mashibing.juc.c_021_02_AQS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -413,22 +393,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.T02_VolatileReference1" />
-      <item itemvalue="Application.T06_LockSupport" />
-      <item itemvalue="Application.T02_WithVolatile" />
-      <item itemvalue="Application.T04_NotifyFreeLock" />
-      <item itemvalue="Application.T03_NotifyHoldingLock" />
+      <item itemvalue="Application.TestReentrantLock" />
+      <item itemvalue="Application.T01_HelloVarHandle" />
+      <item itemvalue="Application.T01_WhatIsThread" />
+      <item itemvalue="Application.T02_HowToCreateThread" />
+      <item itemvalue="Application.T02_CacheLinePadding" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.T03_NotifyHoldingLock" />
-        <item itemvalue="Application.T04_NotifyFreeLock" />
-        <item itemvalue="Application.T02_WithVolatile" />
-        <item itemvalue="Application.T06_LockSupport" />
-        <item itemvalue="Application.T02_VolatileReference1" />
+        <item itemvalue="Application.T02_CacheLinePadding" />
+        <item itemvalue="Application.T02_HowToCreateThread" />
+        <item itemvalue="Application.T01_WhatIsThread" />
+        <item itemvalue="Application.TestReentrantLock" />
+        <item itemvalue="Application.T01_HelloVarHandle" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
@@ -602,6 +583,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交演示代码" />
     <MESSAGE value="2019年9月8日的更新" />
@@ -621,41 +614,64 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java</url>
           <line>126</line>
-          <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_021_02_AQS/TestReentrantLock.java</url>
           <line>10</line>
-          <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/util/concurrent/ConcurrentHashMap.java</url>
           <line>807</line>
-          <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://C:/jdk1.8/src.zip!/java/util/concurrent/locks/ReentrantLock.java</url>
           <line>284</line>
-          <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://C:/jdk1.8/src.zip!/java/util/concurrent/locks/ReentrantLock.java</url>
           <line>223</line>
-          <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://C:/jdk1.8/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
           <line>1197</line>
-          <properties />
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java</url>
+          <line>266</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_021_03_VarHandle/T01_HelloVarHandle.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_021_02_AQS/TestReentrantLock.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
+          <line>650</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java</url>
+          <line>438</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
